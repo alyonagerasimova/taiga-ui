@@ -2,6 +2,7 @@ import {Component, ViewChild} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {RouterLink} from '@angular/router';
 import {changeDetection} from '@demo/emulate/change-detection';
+import {DemoRoute} from '@demo/routes';
 import {TuiDemo} from '@demo/utils';
 import type {TuiContext, TuiInputMode, TuiInputType} from '@taiga-ui/cdk';
 import {tuiProvide} from '@taiga-ui/cdk';
@@ -68,6 +69,7 @@ export default class PageComponent extends AbstractExampleTuiInteractive {
         TuiContext<TuiSizeL | TuiSizeS>
     >;
 
+    protected readonly docRoutes = DemoRoute;
     protected readonly themes = ['Taiga UI', 'Bootstrap', 'Material'];
     protected theme = this.themes[0];
 
