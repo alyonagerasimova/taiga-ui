@@ -48,7 +48,7 @@ import {InheritedDocumentationComponent} from '../abstract/inherited-documentati
     ],
 })
 export default class PageComponent extends AbstractExampleTuiControl {
-    protected readonly docRoutes = DemoRoute;
+    protected readonly routes = DemoRoute;
 
     protected editable = true;
 

@@ -69,7 +69,7 @@ export default class PageComponent extends AbstractExampleTuiInteractive {
         TuiContext<TuiSizeL | TuiSizeS>
     >;
 
-    protected readonly docRoutes = DemoRoute;
+    protected readonly routes = DemoRoute;
     protected readonly themes = ['Taiga UI', 'Bootstrap', 'Material'];
     protected theme = this.themes[0];
 

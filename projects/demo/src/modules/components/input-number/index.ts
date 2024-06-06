@@ -37,7 +37,7 @@ import {AbstractExampleTuiNumberFormat} from '../abstract/number-format';
     providers: [tuiProvide(ABSTRACT_PROPS_ACCESSOR, PageComponent)],
 })
 export default class PageComponent extends AbstractExampleTuiNumberFormat {
-    protected readonly docRoutes = DemoRoute;
+    protected readonly routes = DemoRoute;
     protected docPages = DemoRoute;
 
     protected readonly minVariants: readonly number[] = [-Infinity, -500, 5, 25];
